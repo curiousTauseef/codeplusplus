@@ -1,0 +1,31 @@
+ul.nav {
+	background-color:#FF0;
+}
+li.active {
+	background-color:#FF0;
+	opacity:.75;
+}
+body { 
+  background: url(images/Login_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:#F00;
+}
+
+#splashForm
+{
+	display:block;
+	margin:0 auto;
+}
+.hidden{
+	display:none;
+}
+#login{
+background-color:#ff9a00;
+
+}
+#register{
+
+}
