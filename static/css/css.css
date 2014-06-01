@@ -206,6 +206,15 @@ button#register {
 	height:75px;
 	float:right;
 	margin:25px 10px;
-	
-	
-	}	
+}	
+
+/*Dashboard*/
+.deadline {
+	margin-left: 15px;
+	color: orange;
+}
+.url {
+	margin-left: 15px;
+	font-weight: normal;
+	color: #CCC;
+}
