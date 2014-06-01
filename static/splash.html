@@ -25,14 +25,27 @@
     <input type="password" placeholder="Password">
   </div>
 <!--Buttons (divs for possible later adjustment)-->
-  <div>
-  <button type="submit" id="login" >Login</button>
+  <div id = "regs">
+  <button type="button" id="login" >Login</button>
+  <button class="button">HTML</button> <button class="button">CSS</button>
+   <button class="button">Javascript</button> <button class="button">PHP</button>
   </div>
   <div>
-  <button type="submit" id="register" >Register</button>
+  <button type="button" id="register" >Register</button>
   </div>
 </form>
+  <script = "text/javascript">
+  $(document).ready(function(){
+    $("#register").click(function(){
 
+    //alert($(".Tile".css('background-color')));
+    $("#login").slideToggle();
+    $(".button").slideToggle();
+    
+});
+    
+});
+  </script>
 </body>
 
 </html>
