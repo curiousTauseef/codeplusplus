@@ -269,3 +269,33 @@ input[type="email"], input[type="password"] {
 	width: 220px;
 	height: 40px;
 }
+.tags {
+	padding: 10px;
+	margin-left: 10px;
+	background: #57d0c0;
+	color: white;
+}
+.tags:hover {
+	cursor: pointer;
+	background: orange;
+}
+.font-black {
+	color: black;
+}
+
+input.form-control3 {
+	width: 80%;
+	padding: 25px 15px;
+	background: #efefef;
+}
+.fa-plus {
+	font-size: 30px;
+}
+
+.small-select {
+	width: 100px;
+	margin-left: 10px;
+}
+.uppercase {
+	text-transform: uppercase;
+}

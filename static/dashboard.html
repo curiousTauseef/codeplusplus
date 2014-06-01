@@ -35,7 +35,7 @@
     
     
     <div id="current_project" class="col-md-3">
-        <h2 class="p_header">  Active Goals:  <button class="view" data-toggle="modal" data-target="#myModal">Add a goal <i class="fa fa-plus bigger"></i></button></h2>
+        <h2 class="p_header">  Active Goals:  <button class="view uppercase" data-toggle="modal" data-target="#myModal">Add a goal <i class="fa fa-plus bigger"></i></button></h2>
        
                         <div class="half_col">
                             <h3 class="selected_course">Finish Python the Hard Way</h3>
@@ -59,7 +59,9 @@
         </div> <!--/current project-->
 
          <div id="daily_achievements" class="col-md-3">
-        <h2 class="p_header">  Daily Achievements:  <button class="align_right">  Add your achievements <i class="fa fa-plus bigger"></i> </button></h2>
+        <h2 class="p_header">  Daily Achievements:  <button class="view uppercase" data-toggle="modal" data-target="#myModal2">Add a progress log <i class="fa fa-plus bigger"></i></button>
+
+            </h2>
          
                                      
                                       
@@ -88,19 +90,109 @@
                                     <h2 class="p_header" id="myModalLabel">ADD A GOAL</h2>
                                   </div>
                                   <div class="modal-body">  
-                                                    
+                                                          
+                            <input type="text" class="form-control2" placeholder="Goal Title">
+                            <input type="text" class="form-control2" placeholder="Resource URL">
+                            <h3 class="font-black">Deadline: </h3>
+                            <select class="small-select">
+                                <option>Month</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select class="small-select">
+                                <option>Day</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="01">13</option>
+                                <option value="02">14</option>
+                                <option value="03">15</option>
+                                <option value="04">16</option>
+                                <option value="05">17</option>
+                                <option value="06">18</option>
+                                <option value="07">19</option>
+                                <option value="08">20</option>
+                                <option value="09">21</option>
+                                <option value="10">22</option>
+                                <option value="11">23</option>
+                                <option value="12">24</option>
+                                <option value="12">25</option>
+                                <option value="12">26</option>
+                                <option value="12">27</option>
+                                <option value="12">28</option>
+                                <option value="12">29</option>
+                                <option value="12">30</option>
+                                <option value="12">31</option>
+                            </select>
+                            <select class="small-select">
+                                <option>Year</option>
+                            </select>
 
-                                     
-    <input type="text" class="form-control2" placeholder="Goal Title">
-    <input type="text" class="form-control2" placeholder="Resource URL">
 
-    <h3>Add tags:</h3>
+                            <h3 class="font-black">Add tags:</h3>
+                            <span class="tags">PHP</span>
+                              <span class="tags">CSS</span>
+                                <span class="tags">Javascript</span>
+                                  <span class="tags">Python</span>
+                                    <span class="tags">Ruby</span>
+                                      <span class="tags">Java</span>
 
                                                     
                                   </div>
                                   <div class="modal-footer">
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                     <button type="button" class="btn btn-warning">Publish Goal</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div><!--modal-->
+
+
+                         <!-- Modal -->
+                            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h2 class="p_header" id="myModalLabel">ADD A PROGRESS LOG</h2>
+                                  </div>
+                                  <div class="modal-body">  
+
+                            <select>
+                                <option>GOALS</option>
+                                <option>Learn Python the Hard Way</option>
+                                <option>Read through Javascript: The Good Parts</option>
+
+                            </select>
+                                                          
+                            <input type="text" class="form-control3" placeholder="What I achieved..."> <a href="#"><i class="fa fa-plus"></i></a>
+                            <input type="text" class="form-control3" placeholder="I need help with..."> <a href="#"><i class="fa fa-plus"></i></a>
+
+                        
+                                                    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-warning">Publish Log</button>
                                   </div>
                                 </div>
                               </div>
