@@ -19,12 +19,18 @@ li.active {
 	width: 235px;
 	display: block;
 	margin: 0 auto;
-	margin-top:15%;
+	margin-top:2.5%;
 }
 .hidden{
 	display:none;
 }
 
+.logo{
+	display: block;
+	margin: 0 auto;
+	margin-top:10%;
+	width:20%;
+}
 #register{
 	background-color:#FFF;
 }
@@ -32,12 +38,14 @@ li.active {
 #splashForm button{
 	width:225px;
 	height:35px;
+	border:none;
 	-moz-border-radius: 7px;
     -webkit-border-radius: 7px;
-    border-radius: 7px;
+    border-radius: 2px;
 	-webkit-box-shadow: 0 -1px -.5px #FFF;
 	-moz-box-shadow: 0 -1px -.5px #FFF;
 	box-shadow: 0 -1px -.5px #FFF;
+
 }
 #login{
 background-color:#ff9a00;
