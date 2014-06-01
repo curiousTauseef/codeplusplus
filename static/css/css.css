@@ -73,3 +73,138 @@ box-shadow: 0 -1px -.5px #ff9a00;
 	
 }
 /******************************************************/
+
+/*landing header css*/
+.navbar .nav {
+	float:right !important;
+	top: -15px;
+	
+	}
+	
+.navbar .brand {
+	background-image:url(images/logo_o.png);
+	width:205px;
+	height:46px;
+	background-repeat:no-repeat;
+	text-indent:-9999px;
+	margin-top:10px;
+	}
+
+
+body { 
+  background-color:#f1f0e6;
+}	
+
+.tag{
+	font-family:'luzern', Helvetica, sans-serif;
+	color:#57d0c0;
+	font-size:30px;
+	text-transform:uppercase;
+	position: relative;
+	top: 30px;
+	left: -20px;
+	
+
+	}
+
+ul.nav {
+	font-size:25px;
+}
+
+	
+a{
+	color:#ff9a00 !important;}	
+	
+a:hover{
+	color:#ffce6c !important;
+	}	
+
+
+
+li.active {
+	background-color:#FF0;
+	opacity:.75;
+}
+
+
+
+#current_project{
+	height:200px;
+	background:#fff;
+	
+	}
+	
+.p_header{
+	background:#ff9a00;
+
+	}	
+
+h1, h2, h3{
+	font-family: 'luzern', Helvetica, sans-serif;
+	color: #fff;
+	padding: 5px 17px;
+	text-transform:uppercase;
+	padding: 10px 0px 5px 15px;
+	}
+	
+h2{
+	font-size:25px;
+	}	
+	
+h3{
+	font-size:15px;
+	}	
+
+.selected_course{
+	color:#777;
+	font-size:36px;
+	text-transform:capitalize;
+	
+	}
+	
+	
+.half_col{
+	width:50%;
+	float: left;
+	
+	}	
+	
+	
+.align_right {
+	text-align: right;
+	float: right;
+	font-size: 15px;
+	margin-right: 15px;
+	text-transform:none;
+}
+
+.bigger {
+font-size: 25px;
+position: relative;
+top: 3px;
+}
+
+button{
+	color: #fff;
+	background-color: #ff9a00;
+	border: none;
+	margin-left: 15px;
+	}
+	
+.see_all {
+    color: #000;
+    background-color: #CCC;
+    padding: 5px 15px;
+    float: right;
+    margin-top: 10px;
+}
+.profile{
+	border-radius:50%;
+	background-color:#e4e4e4;
+	width:75px;
+	height:75px;
+	float:right;
+	margin:25px 10px;
+	
+	
+	}	
