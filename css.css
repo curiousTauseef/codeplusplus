@@ -9,6 +9,10 @@ li.active {
 .hidden{
 	display:none;
 }
+@font-face {
+	font-family:luzern;
+	src:url(Luzern-Regular.otf);
+}
 /************************************Splash Page Things******************************************/
 #splash { 
   background: url(images/Login_background.jpg) no-repeat center center fixed; 
@@ -33,6 +37,16 @@ li.active {
 	margin: 0 auto;
 	margin-top:10%;
 	width:20%;
+}
+.slogan{
+	font-family:luzern;
+	font-weight:lighter;
+	text-transform:uppercase;
+	text-align:center;
+	display: block;
+	margin: 0 auto;
+	color:#FFF;
+	font-size:18px;
 }
 #register{
 	background-color:#FFF;
