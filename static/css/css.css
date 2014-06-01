@@ -66,7 +66,7 @@ li.active {
 	box-shadow: 0 -1px -.5px #FFF;
 
 }
-.orange{
+.orange, #login{
 background-color:#ff9a00;
 color:#fff;
 -webkit-box-shadow: 0 -1px -.5px #ff9a00;
@@ -263,4 +263,9 @@ input.form-control2 {
 
 div#myModal {
 	//z-index:-9999 !important;
+}
+
+input[type="email"], input[type="password"] {
+	width: 220px;
+	height: 40px;
 }
