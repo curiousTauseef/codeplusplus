@@ -1,8 +1,5 @@
-ul.nav {
-	background-color:#FF0;
-}
+
 li.active {
-	background-color:#FF0;
 	opacity:.75;
 }
 
@@ -122,7 +119,6 @@ a:hover{
 
 
 li.active {
-	background-color:#FF0;
 	opacity:.75;
 }
 
@@ -188,9 +184,14 @@ button{
 	color: #fff;
 	background-color: #ff9a00;
 	border: none;
-	margin-left: 15px;
+	//margin-left: 15px;
 	}
-	
+button.view {
+	margin-left: 15px;
+}
+button#register {
+	 color: black;
+}
 .see_all {
     color: #000;
     background-color: #CCC;
