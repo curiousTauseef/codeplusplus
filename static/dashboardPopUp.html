@@ -35,12 +35,33 @@
     
     
     <div id="current_project" class="col-md-3">
-        <h2 class="p_header">  Active Goals:  <button class="align_right">  Add a goal <i class="fa fa-plus bigger"></i> </button></h2>
+        <h2 class="p_header">  Current Goal:  <span class="align_right">  Add a goal <i class="fa fa-plus bigger"></i> </span></h2>
        
                         <div class="half_col">
                             <h3 class="selected_course">Finish Python the Hard Way</h3>
                             <h4><span class="url">Resource URL: learnpythonthehardway.org/book/</span></h4>
-                            <span class="deadline">Deadline: 7/14/2014 </span>
+                            <span class="deadline">Deadline: 7/14/2014 </span><button class="view" data-toggle="modal" data-target="#myModal">View More</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h2 class="p_header" id="myModalLabel">ADD A GOAL</h2>
+                                  </div>
+                                  <div class="modal-body">	
+                                    <input type="text" class="form-control" name="username" placeholder="Goal Title" required="" autofocus="" />
+                                    <br />
+                                    <input type="text" class="form-control" name="username" placeholder="What are you learning? Add URL(ie Codeacademy.com)" required="" autofocus="" />
+                                    <p>what are you learning?</p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                         </div>
         
         
@@ -56,31 +77,6 @@
                         
        		<button class="see_all">See all goals</button>
         </div> <!--/current project-->
-
-         <div id="daily_achievements" class="col-md-3">
-        <h2 class="p_header">  Daily Achievements  <button class="align_right">  Add your achievements <i class="fa fa-plus bigger"></i> </button></h2>
-         
-                                     
-                                      
-                      
-                   
-       
-                       <p>You recorded a new achievement at 6:35pm EST on 5/31/14 for the <a href="#">Read Eloquent Javascript</a> GOAL tagged <a href="#">Javascript</a>.</p>
-
-                       <h3><span class="diary_title">
-                        Accomplishments</span></h3>
-                        <p>Finally understand javascript closures!</p>
-
-                       <h3> <span class="diary_title">I need help with</span></h3>
-                        <p>Exercise 3.5 not working</p>
-                        </span></h3>
-                      
-        
-                      
-                        
-        
-        </div> <!--/current project-->
-
         
     </div> <!--/container-->
 

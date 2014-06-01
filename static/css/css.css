@@ -1,4 +1,9 @@
 
+*{
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
 li.active {
 	opacity:.75;
 }
@@ -109,7 +114,6 @@ body {
 	text-transform:uppercase;
 	position: relative;
 	top: 30px;
-	left: -20px;
 	
 
 	}
@@ -167,7 +171,9 @@ h3{
 	text-transform:capitalize;
 	
 	}
-	
+.quarter_col {
+	width: 25%;
+}
 	
 .half_col{
 	width:50%;
@@ -227,4 +233,23 @@ button#register {
 	margin-left: 15px;
 	font-weight: normal;
 	color: #CCC;
+}
+
+h2.p_header {
+	margin-top: 50px;
+}
+
+span.diary_title {
+	color: #57d0c0;
+	//padding-left: 15px;
+}
+#daily_achievements {
+	background: white;
+	padding-bottom: 10px;
+}
+#daily_achievements p {
+	padding-left: 15px;
+}
+h3 {
+	line-height: 100%;
 }
