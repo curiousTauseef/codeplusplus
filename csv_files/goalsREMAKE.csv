@@ -1,0 +1,33 @@
+username,deadline,partner,data_created,diary,goal_complete
+crazcalm,20140610,crazcalm,20140601,I learned how to do sql tables today!,False
+demo,20140610,arizonaU,20140601,I learned how to do sql tables today!,False
+bushie,20140610,billy4life,20140601,learned how much I did not know,False
+billy4life,20140610,bushie,20140601,figured I learned something wrong,False
+sugarAcer,20140610,calimuffins,20140601,figured the answers to life,False
+coolranch,20140610,capnspring,20140601,learned java isnt javascript,False
+mj4life,20140610,coolranch,20140601,used different syntax,False
+jumpman,20140610,demo,20140601,learned to be more efficient,False
+mcChilin,20140610,demonz,20140601,that csv files edited in office are bad,False
+jampamp,20140610,eric4eric,20140601,learned that html is obsolete,False
+pavilioner,20140610,intelseek,20140601,learned javascript isnt pretty,False
+capnspring,20140610,jajahutz,20140601,learned php ends with a question,False
+jinsnapple,20140610,jampamp,20140601,learned phyhon is spelled python,False
+xiaoworks,20140610,jinsnapple,20140601,learned css3 using less,False
+demonz,20140610,jumpman,20140601,learned css using sass,False
+jajahutz,20140610,libremucho,20140601,learned to use compass to make css,False
+libremucho,20140610,mangofreak,20140601,learned to make it responsive,False
+calimuffins,20140610,maxmad,20140601,learned flask web development,False
+intelseek,20140610,mcChilin,20140601,learned how to import apk to BB,False
+snowden,20140610,megataco,20140601,learned the api for paypal,False
+eric4eric,20140610,missileme,20140601,learned the api for python nosql,False
+schooler,20140610,mj4life,20140601,learned mongodb,False
+arizonaU,20140610,pavilioner,20140601,learned javascript closure,False
+pride4life,20140610,pride4life,20140601,learned javascript inheritance,False
+spacejam,20140610,redtaco,20140601,learned modular programming,False
+missileme,20140610,schooler,20140601,learned rational databases,False
+maxmad,20140610,snowden,20140601,learned json,False
+mangofreak,20140610,spacejam,20140601,learned xml,False
+redtaco,20140610,sugarAcer,20140601,learned backward compatibility,False
+tacosaur,20140610,tacomicro,20140601,learned javascript for IE,False
+megataco,20140610,tacosaur,20140601,learned to breakdance,False
+tacomicro,20140610,xiaoworks,20140601,learned to see the future,False
