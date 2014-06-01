@@ -1,33 +1,33 @@
-index	username	first_name	last_name	 password
-1	crazcalm	marcus	willock	pass1234
-2	demo	john	doe	pass1234
-3	bushie	bush	y	pass1234
-4	billy4life	marcus	xiaolin	pass1234
-5	sugarAcer	jessie	whales	pass1234
-6	coolranch	jose	perez	pass1234
-7	mj4life	micheal	jordan	pass1234
-8	jumpman	micheal	jackson	pass1234
-9	mcChilin	jill	micheals	pass1234
-10	jampamp	manny	meyers	pass1234
-11	pavilioner	henry	ford	pass1234
-12	capnspring	ivan	storm	pass1234
-13	jinsnapple	jin	capcom	pass1234
-14	xiaoworks	xaio	xaolin	pass1234
-15	demonz	judas	christ	pass1234
-16	jajahutz	hunts	hunter	pass1234
-17	libremucho	johnny	quest	pass1234
-18	calimuffins	patrica	jones	pass1234
-19	intelseek	sean	paul	pass1234
-20	snowden	jones	brown	pass1234
-21	eric4eric	eric	breyers	pass1234
-22	schooler	jennifer	hudson	pass1234
-23	arizonaU	stela	katrina	pass1234
-24	pride4life	hugo	boss	pass1234
-25	spacejam	mitchelle	tires	pass1234
-26	missileme	bob	ford	pass1234
-27	maxmad	harrison	fordson	pass1234
-28	mangofreak	belba	bods	pass1234
-29	redtaco	senora	cruz	pass1234
-30	tacosaur	joe	celia	pass1234
-31	megataco	peche	peaches	pass1234
-32	tacomicro	ian	iron	pass1234
+index,username,first_name,last_name,password
+1,crazcalm,marcus,willock,pass1234
+2,demo,john,doe,pass1234
+3,bushie,bush,y,pass1234
+4,billy4life,marcus,xiaolin,pass1234
+5,sugarAcer,jessie,whales,pass1234
+6,coolranch,jose,perez,pass1234
+7,mj4life,micheal,jordan,pass1234
+8,jumpman,micheal,jackson,pass1234
+9,mcChilin,jill,micheals,pass1234
+10,jampamp,manny,meyers,pass1234
+11,pavilioner,henry,ford,pass1234
+12,capnspring,ivan,storm,pass1234
+13,jinsnapple,jin,capcom,pass1234
+14,xiaoworks,xaio,xaolin,pass1234
+15,demonz,judas,christ,pass1234
+16,jajahutz,hunts,hunter,pass1234
+17,libremucho,johnny,quest,pass1234
+18,calimuffins,patrica,jones,pass1234
+19,intelseek,sean,paul,pass1234
+20,snowden,jones,brown,pass1234
+21,eric4eric,eric,breyers,pass1234
+22,schooler,jennifer,hudson,pass1234
+23,arizonaU,stela,katrina,pass1234
+24,pride4life,hugo,boss,pass1234
+25,spacejam,mitchelle,tires,pass1234
+26,missileme,bob,ford,pass1234
+27,maxmad,harrison,fordson,pass1234
+28,mangofreak,belba,bods,pass1234
+29,redtaco,senora,cruz,pass1234
+30,tacosaur,joe,celia,pass1234
+31,megataco,peche,peaches,pass1234
+32,tacomicro,ian,iron,pass1234
