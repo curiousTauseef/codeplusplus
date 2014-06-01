@@ -86,7 +86,7 @@ box-shadow: 0 -1px -.5px #ff9a00;
 	}
 	
 .navbar .brand {
-	background-image:url(images/logo_o.png);
+	background-image:url(../images/logo_o.png);
 	width:205px;
 	height:46px;
 	background-repeat:no-repeat;
@@ -213,6 +213,15 @@ button#register {
 	height:75px;
 	float:right;
 	margin:25px 10px;
-	
-	
-	}	
+}	
+
+/*Dashboard*/
+.deadline {
+	margin-left: 15px;
+	color: orange;
+}
+.url {
+	margin-left: 15px;
+	font-weight: normal;
+	color: #CCC;
+}
