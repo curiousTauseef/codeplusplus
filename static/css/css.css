@@ -74,6 +74,14 @@ color:#fff;
 box-shadow: 0 -1px -.5px #ff9a00;
 	
 }
+ .button {
+	display:none;
+	width:120px;
+	background-color:white;
+	color:black;
+
+}
+
 /******************************************************/
 
 /*landing header css*/
@@ -224,6 +232,7 @@ button#register {
 	font-weight: normal;
 	color: #CCC;
 }
+
 h2.p_header {
 	margin-top: 50px;
 }
