@@ -1,0 +1,75 @@
+ul.nav {
+	background-color:#FF0;
+}
+li.active {
+	background-color:#FF0;
+	opacity:.75;
+}
+
+.hidden{
+	display:none;
+}
+@font-face {
+	font-family:luzern;
+	src:url(Luzern-Regular.otf);
+}
+/************************************Splash Page Things******************************************/
+#splash { 
+  background: url(images/Login_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#splashForm
+{
+	width: 235px;
+	display: block;
+	margin: 0 auto;
+	margin-top:2.5%;
+}
+
+
+.logo{
+	display: block;
+	margin: 0 auto;
+	margin-top:10%;
+	width:20%;
+}
+.slogan{
+	font-family:luzern;
+	font-weight:lighter;
+	text-transform:uppercase;
+	text-align:center;
+	display: block;
+	margin: 0 auto;
+	color:#FFF;
+	font-size:18px;
+}
+#register{
+	background-color:#FFF;
+}
+
+#splashForm button{
+	width:225px;
+	height:35px;
+	border:none;
+	-moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 2px;
+	-webkit-box-shadow: 0 -1px -.5px #FFF;
+	-moz-box-shadow: 0 -1px -.5px #FFF;
+	box-shadow: 0 -1px -.5px #FFF;
+
+}
+#login{
+background-color:#ff9a00;
+color:#fff;
+-webkit-box-shadow: 0 -1px -.5px #ff9a00;
+-moz-box-shadow: 0 -1px -.5px #ff9a00;
+box-shadow: 0 -1px -.5px #ff9a00;
+	
+}
+/******************************************************/
