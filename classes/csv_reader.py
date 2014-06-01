@@ -1,8 +1,8 @@
 import csv
 
 
-def login(username, password):
-    with open("../csv_files/users.csv") as f:
+def login(file, username, password):
+    with open(file) as f:
         f_csv = csv.DictReader(f)
         for row in f_csv:
             if row["username"] == username and row["password"] == password:
@@ -24,4 +24,4 @@ if __name__ == "__main__":
     tests = [("crazcalm", "pass1234"), ("crazcalm", "none")]
     for username, password in tests:
         print username, password
-        print login(username, password)
+        print login("../csv_files/users.csv", username, password)

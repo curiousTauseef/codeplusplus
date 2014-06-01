@@ -1,10 +1,17 @@
 import flask
+from classes import csv_reader
+
 
 app = flask.Flask(__name__)
 
+csv_files = {
+    "users" : "csv_files/users.csv",
+    "goals" : "csv_files/goals.csv"
+    }
+
 @app.route('/')
 def hello():
-    return "hello world"
+    return csv_reader.login(csv_files["users"], "crazcalm", "pass1234")
 
 @app.route("/dashboard")
 def dashboard():
