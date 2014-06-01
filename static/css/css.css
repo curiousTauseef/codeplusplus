@@ -79,7 +79,7 @@ box-shadow: 0 -1px -.5px #ff9a00;
 	}
 	
 .navbar .brand {
-	background-image:url(images/logo_o.png);
+	background-image:url(../images/logo_o.png);
 	width:205px;
 	height:46px;
 	background-repeat:no-repeat;
