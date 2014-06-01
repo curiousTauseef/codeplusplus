@@ -2,7 +2,7 @@ CREATE DATABASE codePlusPlus;
 
 USE codePlusPlus;
 
-GRANT ALL on codePlusPlus.* TO 'code'@'localhost' IDENTIFIED BY '56Y6t656ghnhbhgh';
+GRANT ALL on codePlusPlus.* TO 'marcus'@'localhost' IDENTIFIED BY '11Crazcalm';
 
 CREATE TABLE goal(
 	deadline VARCHAR(8),
